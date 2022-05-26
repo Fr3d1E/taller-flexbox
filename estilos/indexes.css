@@ -1,0 +1,316 @@
+body{
+  background-color: #82888b;
+}
+
+.principio {
+  display: flex;
+  left: 6px;
+  width: 100%;
+  height: 40px;
+  justify-content: center;
+  background: blueviolet;
+}
+
+.pcentro {
+  left: 40%;
+  top: 5px;
+
+}
+
+.navbar a {
+  color: black;
+  position: relative;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  font-style: oblique;
+  top: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.cambiarf:hover {
+  color: rgb(11, 11, 164);
+}
+
+.cambiary:hover {
+  color: rgb(186, 9, 45);
+}
+
+.cambiart:hover {
+  color: rgb(27, 159, 207);
+}
+
+.cambiari:hover {
+  color: rgb(231, 102, 85);
+}
+
+.redes {
+  display: flex;
+  height: 70px;
+  top: 50px;
+  width: 100%;
+  --b: #e3f1f6;
+  --ble: #82888b;
+  --degradado: linear-gradient(90deg, var(--ble), var(--b));
+  background: var(--degradado);
+}
+
+.contenedor1 {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+  
+}
+
+.contenedor2 {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+
+
+}
+
+.logo {
+  position: relative;
+  top: 2px;
+  height: 60px;
+  width: 80px;
+  left: 30px;
+ 
+}
+
+.contenedor2 .cambiar :hover {
+  color: #093eb2;
+  cursor: pointer;
+}
+
+.redsocial1 {
+
+
+  top: 0px;
+  left: 10px;
+  height: 90px;
+  width: 65px;
+
+}
+
+.redsocial2 {
+
+
+  top: 0px;
+  left: 90px;
+  height: 90px;
+  width: 65px;
+}
+
+.redsocial3 {
+
+
+  top: 0px;
+  left: 170px;
+  width: 65px;
+  height: 90px;
+
+}
+
+.redsocial4 {
+
+
+  top: 0px;
+  left: 250px;
+  width: 65px;
+  height: 90px;
+
+}
+
+
+.icredes img {
+  top: 20%;
+  left: 20%;
+  position: absolute;
+}
+
+.icredes a {
+  position: absolute;
+  top: 60px;
+  left: 10%;
+  text-decoration: none;
+  font-style: inherit;
+  color: black;
+
+}
+
+.barra {
+  position: relative;
+  top: 40px;
+  height: 20px;
+  width: 100%;
+  --b: #093eb2;
+  --ble: #0ba9cc;
+  --degradado: linear-gradient(90deg, var(--ble), var(--b));
+  background: var(--degradado);
+}
+
+.barraitem {
+  position: absolute;
+  left: 85%;
+  top: 0px;
+  height: 30px;
+  width: 15%;
+}
+
+
+.barra a {
+  font-size: 1rem;
+ 
+}
+
+.imagen {
+  position: relative;
+  top: 40px;
+  left: 0px;
+  height: 250px;
+  width: 100%;
+
+}
+
+.container1 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+}
+
+.img1 {
+  height: 250px;
+  width: 20%;
+  left: 0px;
+}
+
+.ingingles {
+  height: 100%;
+  width: 100%;
+}
+
+.img2 {
+  height: 250px;
+  width: 20%;
+  left: 266px;
+}
+
+
+.img3 {
+  height: 250px;
+  width: 20%;
+  left: 532px;
+}
+
+
+.img4 {
+  height: 250px;
+  width: 20%;
+  left: 799px;
+}
+
+
+.img5 {
+  height: 250px;
+  width: 20%;
+  left: 1066px;
+}
+
+.menucursos {
+  position: relative;
+
+  top: 40px;
+  height: 200px;
+  width: 100%;
+}
+
+.con1 {
+  width: 100%;
+  height: 55px;
+
+}
+
+.curso {
+  display: flex;
+  justify-content: center;
+}
+
+.logocur img {
+  width: 60px;
+  height: 50px;
+}
+
+.curof h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menucursos2 {
+ 
+  width: 100%;
+  height: 100%;
+}
+
+.con2 {
+  display: flex;
+  height: 99%;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.curso1 {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 160px;
+
+}
+
+.curso1 img{
+  position: relative;
+ left: 32px;
+}
+
+
+
+.pcosto {
+  text-decoration: none;
+  
+}
+
+.curso2 {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 160px;
+  
+}
+
+
+.curso3 {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 160px;
+
+}
+
+
+.curso4 {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 160px;
+  
+}
+
+.curso5 {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 160px;
+  
+}
